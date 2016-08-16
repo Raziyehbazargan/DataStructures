@@ -1,9 +1,8 @@
-# DataStructures
-DataStructures Summary
+# Data Structures Summary
 
 ---
 
-- **Arrays** 
+- **[Arrays](array.md)** 
 	- Insertion is bad - lots of shifting to fit an elemnt in the middle ( Insertion in the end of array is OK ).
 	- Deletion is bad - lots of shifting after removing an elemnt 
 	- Lookup is great - random access, constant time.
