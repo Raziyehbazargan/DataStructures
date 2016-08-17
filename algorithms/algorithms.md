@@ -19,5 +19,5 @@ Following are some standard algorithms that are Divide and Conquer algorithms.
 	- space complexity
 
 2- Quick Sort: 
-	- worst case running time:  O(nlogn)
-	- space complexity
+	- Average case running time:  O(nlogn)
+	- Worst case running time:  O(n^2)
