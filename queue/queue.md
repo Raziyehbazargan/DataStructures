@@ -11,6 +11,7 @@ This makes queue as **FIFO** data structure, which means that element inserted f
 **enqueue** adds an element to the rear of a queue.
 
 **dequeue** removes and returns the front element of the queue.
+
 ![Queue](http://www.studytonight.com/data-structures/images/introduction-to-queue.png)
 
 
@@ -36,7 +37,11 @@ Queue, as the name suggests is used whenever we need to have any group of object
 
 #### Implementation of Queue
 
-Queue can be implemented using an **Array, Stack or Linked List**. The easiest way of implementing a queue is by using an Array. 
+Queue can be implemented using an :
+- **Array, Stack or
+- Linked List**. 
+
+The easiest way of implementing a queue is by using an Array. 
 
 Initially the head(FRONT) and the tail(REAR) of the queue points at the first index of the array (starting the index of array from 0). As we add elements to the queue, the tail keeps on moving ahead, always pointing to the position where the next element will be inserted, while the head remains at the first index.
 

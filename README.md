@@ -1,5 +1,7 @@
 # Data Structures Summary
 
+![http://www.studytonight.com/data-structures/introduction-to-data-structures](http://www.studytonight.com/data-structures/images/introduction-to-data-structures.gif)
+
 ---
 
 - **[Arrays](array.md)** 

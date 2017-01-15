@@ -1,4 +1,4 @@
-Stacks
+[Stacks](stacks_and_queues.pdf)
 Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. 
 
 Every time an element is added, it goes on the top of the stack, the only element that can be removed is the element that was at the top of the stack, just like a pile of objects.
@@ -26,7 +26,11 @@ There are other uses also like : Parsing, Expression Conversion(Infix to Postfix
 
 ### Implementation of Stack
 
-Stack can be easily implemented using an Array or a Linked List. Arrays are quick, but are limited in size and Linked List requires overhead to allocate, link, unlink, and deallocate, but is not limited in size. Here we will implement Stack using array.
+Stack can be easily implemented using an:
+- Array or 
+- a Linked List. 
+
+Arrays are quick, but are limited in size and Linked List requires overhead to allocate, link, unlink, and deallocate, but is not limited in size. Here we will implement Stack using array.
 
 ![stack](http://www.studytonight.com/data-structures/images/stack-implementation.png)
 
