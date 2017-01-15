@@ -1,0 +1,20 @@
+{
+  "name": "DataStructures",
+  "version": "1.0.0",
+  "description": "![http://www.studytonight.com/data-structures/introduction-to-data-structures](http://www.studytonight.com/data-structures/images/introduction-to-data-structures.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raziyehbazargan/DataStructures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raziyehbazargan/DataStructures/issues"
+  },
+  "homepage": "https://github.com/Raziyehbazargan/DataStructures#readme"
+}
