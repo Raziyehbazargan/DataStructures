@@ -1,5 +1,5 @@
 
 - [Stack](./stack.md)
-  - [stack-operations](./stack.js)
-  - [stack-implemented-by-Queue](./stack-implemented-by-queue.js)
-  - [stack-impplemented-by-SinglyLinkedList](./stackImpByLinkedList.js)
+  - [stack-operations](./implementation/stack.js)
+  - [stack-implemented-by-Queue](./implementation/stack-implemented-by-queue.js)
+  - [stack-impplemented-by-SinglyLinkedList](./implementation/stackImpByLinkedList.js)
