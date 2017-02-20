@@ -1,11 +1,13 @@
-// How to print duplicate characters from string?
+//example if String is "aabcccccaaa" then program should print "a5b1c5".
 
 'use strict';
 
-function findDuplicate(str) {
+function stringCompression(str) {
   var counter = 1;
   var hashTable = {};
-  var result = {};
+  var result = '';
+
+  if(result.length > str.length) return str;
 
   for (var i = 0 ; i < str.length; i++) {
     if (hashTable.hasOwnProperty(str[i])) {
@@ -16,8 +18,7 @@ function findDuplicate(str) {
   }
 
   for (var key in hashTable) {
-    if ( hashTable[key] > 1)
-      result[key] = hashTable[key];
+    result += key + hashTable[key];
   }
   return result;
 }
