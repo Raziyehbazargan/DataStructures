@@ -7,7 +7,7 @@
 
 function duplicateSll(sll) {
   var prev,
-      current;
+    current;
 
   if(!sll.head || !sll.head.next) return false; // console.log('no duplicates, list just have 0 / 1 node')
 
@@ -19,8 +19,8 @@ function duplicateSll(sll) {
     if(prev.data === current.next.data)
       prev.next = current.next;
 
-      prev = current;
-      current = current.next;
+    prev = current;
+    current = current.next;
   }
   return sll;
 }
@@ -36,7 +36,7 @@ function duplicateSll(sll) {
     if(current.data === current.next.data)
       current.next = current.next.next;
 
-      current = current.next;
+    current = current.next;
   }
   return sll;
 }

@@ -4,7 +4,7 @@ function reverseSingly(head) {
     var next = head.next;
     head.next = prev;
     prev = head;
-    head = next
+    head = next;
   }
   head.next = prev;
   return head;

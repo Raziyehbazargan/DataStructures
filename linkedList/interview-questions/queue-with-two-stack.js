@@ -4,17 +4,17 @@ function TwoStackQueue() {
 }
 
 TwoStackQueue.prototype.push = function(value) {
- this.stack1.push(value);
-}
+  this.stack1.push(value);
+};
 
 TwoStackQueue.prototype.pop = function() {
   if(!stack2.length) {
     if(!stack1.length)
-      return undefined;
+      return false;
   }
 
   while(this.stack1.length) {
     this.stack2.push(this.stack1.pop());
   }
   return this.stack2.pop();
-}
+};

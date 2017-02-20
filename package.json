@@ -4,7 +4,8 @@
   "description": "![http://www.studytonight.com/data-structures/introduction-to-data-structures](http://www.studytonight.com/data-structures/images/introduction-to-data-structures.gif)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/_mocha ./test",
+     "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Raziyehbazargan/DataStructures/issues"
   },
-  "homepage": "https://github.com/Raziyehbazargan/DataStructures#readme"
+  "homepage": "https://github.com/Raziyehbazargan/DataStructures#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0"
+  }
 }
