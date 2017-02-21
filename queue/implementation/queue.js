@@ -11,6 +11,7 @@
 // shift: remove an item from the head of array
 // unshift: add an item to the head of array
 
+
 function Queue() {
   this.queue = [];
 }
@@ -31,6 +32,4 @@ Queue.prototype.peek = function () {
   return (this.queue[0] !== null) ? this.queue[0] : null;
 };
 
-var x = new Queue();
-x.enqueue('razi');
-
+module.exports = Queue;
