@@ -31,6 +31,4 @@ Queue.prototype.peek = function () {
   return (this.queue[0] !== null) ? this.queue[0] : null;
 };
 
-var x = new Queue();
-x.enqueue('razi');
-
+module.exports = Queue;
