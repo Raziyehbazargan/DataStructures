@@ -11,7 +11,6 @@
 // shift: remove an item from the head of array
 // unshift: add an item to the head of array
 
-
 function Queue() {
   this.queue = [];
 }

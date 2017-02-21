@@ -17,7 +17,6 @@ before_script:
 - npm i
 script:
 - npm test
-- npm run lint
 notifications:
   email:
     recipients:

@@ -5,12 +5,12 @@ var Queue = require('../../queue/implementation/queue.js');
 
 describe('#queue operations', function() {
   var q;
-  
+
   beforeEach(function() {
-     q = new Queue();
-     q.enqueue('A');
-     q.enqueue('B');
-     q.enqueue('C');
+    q = new Queue();
+    q.enqueue('A');
+    q.enqueue('B');
+    q.enqueue('C');
   });
 
   describe('#enqueue', function() {
