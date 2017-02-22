@@ -31,4 +31,4 @@
 	- Deletion is easy - once free a node
 	- Lookup is fast - not quite as fast as an array, but almost
 	- Already sorted - sorts as you build n almost all situations
-	- Rapidly becomes huge, even with very little data present, not great, not great if space is at a premium.
+	- Rapidly becomes huge even with very little data present, not great, not great if space is at a premium.
