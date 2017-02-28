@@ -9,10 +9,10 @@ function palindrome(word) {
     stack.stack.push(word[i]);
   }
 
- var reverseWord = stack.stack.pop();
+  var reverseWord = stack.stack.pop();
   while(!stack.isEmpty()) {
     reverseWord += stack.stack.pop();
   }
 
-  return (word === reverseWord)? true : false;
+  return (word === reverseWord) ? true : false;
 }

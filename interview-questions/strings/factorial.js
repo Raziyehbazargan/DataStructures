@@ -1,6 +1,6 @@
 'use strict';
 
-var Stack = require('../stack/implementation/stack/stack-2');
+var Stack = require('../stack/implementation/stack/stack-1');
 
 //factorail 5! = 5 * 4 * 3 * 2 * 1 = 120
 // using recursive function
