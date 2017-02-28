@@ -3,18 +3,20 @@
 var Stack = require('../stack/implementation/stack/stack-2');
 
 function palindrome(word) {
-  var isPalindrome = true;
   var stack = new Stack();
 
-  var mid = (((word.length) / 2 ) == 0 ) ? word.substring(0, word.length / 2) : Math.floor(word.length / 2);
+  var mid = ((word.length % 2 ) === 0 ) ? (word.length / 2) - 1 : Math.floor(word.length / 2);
   for (var i = 0; i < mid; i++) {
     stack.stack.push(word[i]);
+    console.log(stack.stack);
   }
 
   while(!stack.isEmpty()) {
-    if (stack.stack.pop() === word[mid + 1]) {
-      mid++;
-    } else return isPalindrome = false;;
+    var data = stack.stack.pop();
+    console.log(data);
+    if ( data !== word[mid + 1]) {
+      return false;
+    }
   }
-  return isPalindrome;
+  return true;
 }
