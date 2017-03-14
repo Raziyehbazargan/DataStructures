@@ -6,16 +6,16 @@ var HashTable = require('../../hash-table/implementation/hash-table.js');
 describe('#hash-table', function() {
   var data = ["David", "Jennifer", "Donnie", "Raymond",
 "Cynthia", "Mike", "Clayton", "Danny", "Jonathan"];
-
+  var hash = new HashTable();
   before(() => {
-    console.log(data, 'in before');
     for (var i = 0; i < data.length; i++) {
-      HashTable.put(data)
+      hash.put(data[i])
     }
-    HashTable.showDistro();
+    hash.showDistro();
   });
 
   it('#it should return hashTable with data', function() {
-    expect(HashTable.table).length.to.be(9);
+    expect(hash.table).length.to.be(137);
+    expect(hash.table).to.have.property(65);
   });
 });
