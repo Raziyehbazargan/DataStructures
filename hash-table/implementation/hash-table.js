@@ -6,35 +6,45 @@ a function for inserting data into the hash table,
 a function for retrieving data from the hash table,
 a function for displaying the distribution of data in the hash table,
 as well as various utility functions we might need. */
-module.exports = exports = {};
 
-exports.HashTable = function() {
-  this.table = [];
-  this.simpleHash = simpleHash;
+function HashTable() {
+  this.table = new Array(137);
+  //this.simpleHash = simpleHash;
+  this.betterHash = betterHash;
   this.showDistro = showDistro;
   this.put = put;
-  this.get = get;
+  //this.get = get;
 }
 
 /* A simple hash function that at first glance seems to work well is to sum the ASCII value of the letters in the key. The hash value is then that sum modulo the array size. */
-exports.simpleHash = function(data) {
+// function simpleHash(data) {
+//   var total = 0;
+//   for (var i = 0; i < data.length; i++) {
+//     total += data[i].charCodeAt();
+//   }
+//   return total % this.table.length;
+// }
+
+function betterHash(data) {
+  const H = 39;
   var total = 0;
-  console.log(data, ' in simpleHsh');
-
-  for (var i = 0; i < data.length; i++) {
-    total += data[i].charCodeAt();
+  for (var i = 0; i < data.length; ++i) {
+    total += H * total + data[i].charCodeAt();
   }
-  return total % this.table.length;
+  total = total % this.table.length;
+  console.log(total);
+  if (total < 0) {
+    total += this.table.length - 1;
+  }
+  return parseInt(total);
 }
-
 //place the data in the hash table
-exports.put = function(data) {
-  console.log(data, 'in put');
-  var pos = this.simpleHash(data);
+function put(data) {
+  var pos = this.betterHash(data);
   this.table[pos] = data;
 }
 
-exports.showDistro = function() {
+function showDistro() {
   var n = 0;
   for (var i = 0; i < this.table.length; i++) {
     if (this.table[i] != undefined) {
@@ -42,3 +52,5 @@ exports.showDistro = function() {
     }
   }
 }
+
+module.exports = HashTable;
