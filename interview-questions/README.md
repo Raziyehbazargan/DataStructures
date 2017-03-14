@@ -4,5 +4,5 @@
   - [fibonacci-recursive](strings/fibonacci.js)
   - [missing-number](strings/missing-number-in-array.js)
   - [non-repeated-char](strings/non-repeated-char.js)
-  - [Palindrome](strings/Palindrome.js)
+  - [Palindrome](strings/Palindromedo.js)
   - [Permutation](strings/permutation.js)
