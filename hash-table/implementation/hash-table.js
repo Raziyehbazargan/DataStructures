@@ -17,13 +17,13 @@ function HashTable() {
 }
 
 /* A simple hash function that at first glance seems to work well is to sum the ASCII value of the letters in the key. The hash value is then that sum modulo the array size. */
-// function simpleHash(data) {
-//   var total = 0;
-//   for (var i = 0; i < data.length; i++) {
-//     total += data[i].charCodeAt();
-//   }
-//   return total % this.table.length;
-// }
+function simpleHash(data) {
+  var total = 0;
+  for (var i = 0; i < data.length; i++) {
+    total += data[i].charCodeAt();
+  }
+  return total % this.table.length;
+}
 
 function betterHash(data) {
   const H = 39;
