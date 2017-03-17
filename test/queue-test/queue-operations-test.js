@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var Queue = require('../../queue/implementation/queue.js');
+var Queue = require('../../1-data-structures/queue/implementation/queue.js');
 
 describe('#queue operations', function() {
   var q;

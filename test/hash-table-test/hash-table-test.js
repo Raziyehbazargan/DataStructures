@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var HashTable = require('../../hash-table/implementation/hash-table.js');
+var HashTable = require('../../1-data-structures/hash-table/implementation/hash-table.js');
 
 describe('#hash-table', function() {
   var data = ["David", "Jennifer", "Donnie", "Raymond",
