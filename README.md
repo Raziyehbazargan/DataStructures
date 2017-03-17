@@ -9,7 +9,3 @@ This is a repo for practicing DS and Algorithms
   - binary tree
   - graph
   - hash table
-
-- Algorithms
-  - sorting
-  - search
