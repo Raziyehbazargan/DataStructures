@@ -1,7 +1,7 @@
 
 This is a repo for practicing DS and Algorithms.
 
-- Data Structures
+- **Data Structures**
   - array
   - stack
   - queue
@@ -10,6 +10,6 @@ This is a repo for practicing DS and Algorithms.
   - graph
   - hash table
   
- - Algorithms
+ - **Algorithms**
     - sort
     - search
