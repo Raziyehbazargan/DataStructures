@@ -12,4 +12,9 @@ This is a repo for practicing DS and Algorithms.
   
  - **Algorithms**
     - sort
+      - Insertion
+      - Selection
+      - Quick sort
+      - Bubble sort
+      - Merge sort
     - search
