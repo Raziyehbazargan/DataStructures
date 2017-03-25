@@ -1,5 +1,5 @@
 
-- [Sorting Algorithms](./sorting-algorithms.md)
+- Sorting Algorithms
   - [Quick Sort](./sorting/quick-sort.js)
   - [Bubble Sort](./sorting/bubble-sort.js)
   - [Heap Sort](./sorting/heap-sort.js)
