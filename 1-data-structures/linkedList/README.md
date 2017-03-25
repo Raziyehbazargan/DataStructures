@@ -1,0 +1,3 @@
+- Linked list :
+  - when random deletion acuured
+  - 
