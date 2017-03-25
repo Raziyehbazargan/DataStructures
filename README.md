@@ -18,3 +18,4 @@ This is a repo for practicing DS and Algorithms.
       - Bubble sort
       - Merge sort
     - search
+      - Binary
