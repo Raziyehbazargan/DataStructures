@@ -1,3 +1,4 @@
+//return second max in the array
 function findSecMax(arr) {
   if (arr.length === 0 ) return 'array is empty';
 
