@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Created by https://www.gitignore.io/api/linux,macos,windows,node
 
 ### Linux ###
@@ -17,7 +15,7 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### macOS ### 
+### macOS ###
 *.DS_Store
 .AppleDouble
 .LSOverride
@@ -128,6 +126,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,macos,windows,node
-=======
-.DS_Store
->>>>>>> c59a0c71861b98ef7a50e332a388dbca89f2df27
