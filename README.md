@@ -1,14 +1,14 @@
 
 This is a repo for practicing DS and Algorithms.
 
-- **Data Structures**
-  - array
-  - stack
-  - queue
-  - linked list
-  - binary tree
-  - graph
-  - hash table
+- **Data Structures** 
+  - Array
+  - Stack
+  - Queue
+  - Linked list
+  - Binary tree
+  - Graph
+  - Hash table
   
  - **Algorithms**
     - sort
