@@ -4,8 +4,8 @@
   "description": "![http://www.studytonight.com/data-structures/introduction-to-data-structures](http://www.studytonight.com/data-structures/images/introduction-to-data-structures.gif)",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha ./test/*-test/",
-     "lint": "./node_modules/eslint/bin/eslint.js ."
+    "test": "/node_modules/mocha/bin/_mocha /test/*-test/",
+    "lint": "/node_modules/eslint/bin/eslint.js ."
   },
   "repository": {
     "type": "git",
