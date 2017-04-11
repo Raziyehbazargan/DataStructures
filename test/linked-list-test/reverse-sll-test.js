@@ -2,7 +2,7 @@
 
 var expect = require('chai').expect;
 var SLL = require('../../1-data-structures/linked-list/linkedList.js');
-var reverseSll = require('../../3-interview-questions/interview-questions/reverse-SLL.js');
+var reverseSll = require('../../3-interview-questions/linked-list/reverse-SLL.js');
 
 describe('#SLL - Reverse without extra space', function() {
   var sll;
