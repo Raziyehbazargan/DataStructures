@@ -17,5 +17,7 @@ This is a repo for practicing DS and Algorithms.
       - Quick sort
       - Bubble sort
       - Merge sort
+      
     - search
       - Binary
+      - 
