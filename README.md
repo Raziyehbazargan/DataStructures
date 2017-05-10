@@ -19,5 +19,5 @@ This is a repo for practicing DS and Algorithms.
       - Merge sort
       
     - search
-      - Binary
-      - 
+      - Binary Search (BS)
+
