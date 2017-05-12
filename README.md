@@ -20,4 +20,5 @@ This is a repo for practicing DS and Algorithms.
       
     - search
       - Binary Search (BS)
+      - Linear Search
 
