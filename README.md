@@ -5,6 +5,7 @@ This is a repo for practicing DS and Algorithms.
   - Array
   - Stack
   - Queue
+  
   - Linked list (SLL - DLL)
   - Binary tree
   - Graph
