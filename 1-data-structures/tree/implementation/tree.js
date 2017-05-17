@@ -117,10 +117,13 @@ function removeNode(root, data) {
   // data is in the left sub tree.
   if (data < root.data) {
     root.left = removeNode(root.left, data);
+    return root;
 
   // data is in the right sub tree.
   } else if (data > root.data) {
     root.right = removeNode(root.right, data);
+    return root;
+
   } else {
     // case 1: no children
     if (root.left == null && root.right == null) {
