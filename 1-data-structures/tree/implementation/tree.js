@@ -110,8 +110,8 @@ function find(value) {
 function remove(data) {
   this.root = removeNode(this.root, data);
 }
-function removeNode(root, data) {
 
+function removeNode(root, data) {
   if (root === null) return null;
 
   // data is in the left sub tree.
@@ -121,23 +121,22 @@ function removeNode(root, data) {
   // data is in the right sub tree.
   } else if (data > root.data) {
     root.right = removeNode(root.right, data);
-
   } else {
     // case 1: no children
     if (root.left == null && root.right == null) {
       root = null;
-      return;
+      return root;
     }
     // case 2: one child (right)
     if (root.left == null) {
       root = root.right;
-      return;
+      return root;
     }
 
     // case 3: one child (left)
     if (root.right == null) {
       root = root.left;
-      return;
+      return root;
     }
 
     // case 4: two children
