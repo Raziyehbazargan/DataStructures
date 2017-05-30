@@ -1,4 +1,8 @@
 
+- Array
+  - [Search,insert,delete in an unsorted array](array/array-unsorted-opt.js)
+  - [Search,insert,and delete in a sorted array](array/array-sorted-opt.js)
+
 - Strings
   - [fibonacci-iterative](strings/fibonacci-iterative.js)
   - [fibonacci-recursive](strings/fibonacci.js)
