@@ -2,7 +2,7 @@
 This is a repo for practicing DS and Algorithms.
 
 - **Data Structures** 
-  - Array
+  - [Array]()
   - Stack
   - Queue
   
