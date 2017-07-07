@@ -92,3 +92,39 @@ function find(data) {
   }
   return current;
 }
+function removeNode(node, data) {
+
+  if (node == null) return null;
+
+  if (data < node.value) {
+    node.left = removeNode(node.left, data);
+
+  else if (data > node.value)  {
+    node.right = removeNode(node.right, data);
+  }
+
+  else if (node.value == data) {
+
+    //case-1: no childeren
+    if (!node.left && !node.right) {
+      node = null;
+      return node;
+    }
+    //case-2: has one child ( Left or Right)
+    if (!node.left) {
+      node = node.right;
+      return node;
+    }
+    else if (!node.right) {
+      node = node.left;
+      return node;
+    }
+
+    //case -3:  has two childeren
+    else {
+      let temp = getMin(node.right);
+      node.value = temp.value;
+      node.right = removeNode(node.right, temp.value);
+    }
+    return node;
+}
