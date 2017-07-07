@@ -1,14 +1,15 @@
 
 This is a repo for practicing DS and Algorithms.
 
-- **Data Structures**
-  - array
-  - stack
-  - queue
-  - linked list
-  - binary tree
-  - graph
-  - hash table
+- **Data Structures** 
+  - [Array](./3-interview-questions/array)
+  - Stack
+  - Queue
+  
+  - Linked list (SLL - DLL)
+  - Binary tree
+  - Graph
+  - Hash table
   
  - **Algorithms**
     - sort
@@ -17,5 +18,8 @@ This is a repo for practicing DS and Algorithms.
       - Quick sort
       - Bubble sort
       - Merge sort
+      
     - search
-      - Binary
+      - Binary Search (BS)
+      - Linear Search
+

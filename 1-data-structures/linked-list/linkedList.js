@@ -74,3 +74,5 @@ LinkedList.prototype.remove = function(index) {
     return null;
   }
 };
+
+module.exports = LinkedList;
