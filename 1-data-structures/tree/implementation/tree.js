@@ -2,7 +2,7 @@ function Node(data, left, right) {
   this.value = data;
   this.left = left;
   this.right = right;
-  this.show = show;
+  this.showData = show;
 }
 
 function BST() {
@@ -120,7 +120,7 @@ function removeNode(node, data) {
       return node;
     }
 
-    //case -3:  has two childeren
+    //case -3:  has two childeren - no left no right
     else {
       let temp = getMin(node.right);
       node.value = temp.value;
