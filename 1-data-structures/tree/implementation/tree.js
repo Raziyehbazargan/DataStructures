@@ -2,7 +2,7 @@ function Node(data, left, right) {
   this.value = data;
   this.left = left;
   this.right = right;
-  this.showData = show;
+  this.showValue = show;
 }
 
 function BST() {
@@ -50,12 +50,12 @@ function insert(data) {
 function inOrder(node) {
   if (node == null ) return null;
   inOrder(node.left);
-  this.show();
+  this.showValue();
   inOrder(node.right);
 }
 function preOrder(node) {
   if (node == null ) return null;
-  this.show();
+  this.showValue();
   inOrder(node.left);
   inOrder(node.right);
 }
@@ -63,7 +63,7 @@ function postOrder(node) {
   if (node == null ) return null;
   inOrder(node.left);
   inOrder(node.right);
-  this.show();
+  this.showValue();
 }
 function getMin() {
   let current = this.root;
