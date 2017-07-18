@@ -4,7 +4,7 @@ This is a repo for practicing DS and Algorithms.
 - **Data Structures** 
   - [Array](./3-interview-questions/array)
   - [Stack](#)
-  - Queue
+  - [Queue](#)
   
   - Linked list (SLL - DLL)
   - Binary tree
